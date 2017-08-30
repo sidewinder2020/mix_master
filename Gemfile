@@ -32,6 +32,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
+  gem "nyan-cat-formatter"
   gem 'pry'
   gem 'launchy'
   gem 'capybara'
